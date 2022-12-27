@@ -56,7 +56,7 @@ myWatchedSeries.unshift("Kuroko's Basket");
 myWatchedSeries.splice(1,1);
 
 let moneyHeist = myWatchedSeries[1]
-console.log(moneyHeist[2]);
+console.log(moneyHeist.charAt(2));
 
 console.log(myWatchedSeries);
 
