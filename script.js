@@ -41,6 +41,11 @@ const myWatchedSeries = ["black mirror", "money heist", "the big bang theory", "
 
 let myWatchedSeriesLength = myWatchedSeries.length;
 
+/***************************************************************************
+Correcteur: Yannick GOUGUIA
+
+Revoir l'exercice et la reponse de la ligne 48, 
+****************************************************************************/
 let myWatchedSeriesSentence = "is a shōnen manga written by Tsugumi Ōba and drawn by Takeshi Obata. It is prepublished from November 4, 2015 to January 4, 2021 in Shūeisha's Jump Square magazine and compiled in 14 volumes. where it is about choosing the new god among 14 candidates.";
 
 console.log(`I watched ${myWatchedSeriesLength - 3} serie; ${myWatchedSeries[3]} ${myWatchedSeriesSentence}`);
